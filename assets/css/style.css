@@ -104,4 +104,39 @@ header section h1 {
     background-color: yellow;
     display: flex;
     flex-direction: column;
+
+}
+.article4 img {
+    max-width: 60%;
+}
+.pic_4 {
+    margin-right: -8vw;
+   align-self: flex-end;
+}
+.pic_5 {
+    margin: 15vh 0 0 5vw;
+    
+}
+.article5 {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 40vh 2vh 0 2vh;
+}
+.article6 {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article6 img {
+    max-width: 60%;
+}
+.pic_6 {
+    margin: 15vh 0 0 -5vw;
+}
+.pic_7 {
+    margin-left: -12vw;
+    /* padding-top: 21vh; */
+    justify-self: flex-end;
 }
