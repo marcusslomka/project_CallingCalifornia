@@ -7,6 +7,10 @@
     font-family: inter;
     src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
+@font-face {
+    font-family: work_sans;
+    src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
 html {
     font-family: inter, Arial, Helvetica, sans-serif;
 }
@@ -61,23 +65,43 @@ header section h1 {
     margin: 1rem 1rem;
 }
 .article1 {
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1vh 5vh 18vh 1vh;
 }
 .article2 {
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 20vh;
+    padding: 20vh 9vh 0 9vh;
 }
 .article2 h2 {
-    
+    font-size: 3rem;
+}
+.input_pics {
+    font-size: 0.8rem;
+    font-family: work_sans, Arial, Helvetica, sans-serif;
 }
 .article3 {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.article3 img {
+    max-width: 70%;
+}
+.pic_2 {
+    margin: -9vh 4vh 10vh 0;      
+}
+.pic_3 {
+    margin: 31vh 0vh 0 15vh;
+}
+.article4 {
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
 }
