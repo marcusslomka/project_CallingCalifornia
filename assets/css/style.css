@@ -59,29 +59,57 @@ header section h1 {
 .lower_header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 30vh 0 0 0;
     width: 95%;
-    background-color: blueviolet;
 }
 
 
 /* ------------MAIN----------- */
 
+.last_year {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 5vh 5vh;
+}
+.large_text {
+    font-size: 5.5rem;
+}
+.infos {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.theme {
+    font-size: 1rem;
+    list-style: none;
+    margin-top: 1vh;
+}
+.number {
+    font-size: 5rem;
+    list-style: none;
+    margin-top: 1vh;
+}
+.vector {
+    margin-right: -5vh;
+}
+/* ------!pics---- */
+
 .pictures{
     display: grid;
     grid-template-columns:33% 33% 33% ;
     grid-template-rows: 50vw 50vw;
-    margin: 1rem 1rem;
+    margin: 5vh 5vh;
 }
 .article1 {
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1vh 5vh 18vh 1vh;
 }
 .article2 {
-    /* background-color: blue; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +124,6 @@ header section h1 {
     font-family: work_sans, Arial, Helvetica, sans-serif;
 }
 .article3 {
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
 }
@@ -104,16 +131,14 @@ header section h1 {
     max-width: 70%;
 }
 .pic_2 {
-    margin: -9vh 4vh 10vh 0;      
+    margin: -9vh 0 10vh 4vw;      
 }
 .pic_3 {
     margin: 31vh 0vh 0 15vh;
 }
 .article4 {
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
-
 }
 .article4 img {
     max-width: 60%;
@@ -127,13 +152,12 @@ header section h1 {
     
 }
 .article5 {
-    /* background-color: red; */
     display: flex;
     flex-direction: column;
     padding: 40vh 2vh 0 2vh;
 }
 .article6 {
-    /* background-color: blue; */
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -142,10 +166,29 @@ header section h1 {
     max-width: 70%;
 }
 .pic_6 {
-    margin: 15vh 0 0 -5vw;
+    margin: 10vh 0 0 -5vw;
 }
 .pic_7 {
     margin-left: -12vw;
-    /* padding-top: 21vh; */
     justify-self: flex-end;
+}
+
+/* ---------*Golden Bear*----------- */
+
+.golden_bear {
+    background-color: black;
+    color: white;
+    padding: 15vh 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+.intro_logo {
+    width: 30%;
+}
+.quote_artist {
+    width: 45%;
+}
+.quote {
+    margin: 8vh 0 2vh 0;
+    font-size: 1.8rem;
 }
