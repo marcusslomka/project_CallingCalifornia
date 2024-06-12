@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: inter;
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+html {
+    font-family: inter, Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.button_RSVP{
+    border: 20px white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* -----------HEADER------------------ */
+
+header section{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.calling {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    color: black;
+}
+.header_font_small {
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+header section h1 {
+    font-size: 5rem;
+    text-align: center;
+    line-height: 65px;
+    margin: 3vh 0;
+}
+.intro {
+    width: 40vw;
+}
+
+
+/* ------------MAIN----------- */
+
+.pictures{
+    display: grid;
+    grid-template-columns:33% 33% 33% ;
+    grid-template-rows: 50vw 50vw;
+    margin: 1rem 1rem;
+}
+.article1 {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 5vh 18vh 1vh;
+}
+.article2 {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20vh;
+}
+.article2 h2 {
+    
+}
+.article3 {
+    background-color: yellow;
+}
