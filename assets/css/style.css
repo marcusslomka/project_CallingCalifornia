@@ -22,7 +22,10 @@ img {
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
-    padding: 1vh 5vh;
+    padding: 2vh 5vh;
+    width: 13vw;
+    text-align: center;
+
 }
 
 /* -----------HEADER------------------ */
@@ -236,7 +239,7 @@ header section h1 {
 /* ------------*poppyBear-----------  */
 
 .poppy_bear {
-    padding: 15vh 8vh 0 8vh;
+    padding: 15vh 8vh 5vh 8vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -255,3 +258,26 @@ header section h1 {
     width: 100%;
     margin: 0 0 0 30vh;
 }
+
+/* -------*END-------- */
+
+.end  {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 15vh 8vh 0 8vh;
+    
+}
+.small {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.text_end {
+    width: 55%;
+    font-size: 1.4rem;
+    margin: 4vh 0;
+    line-height: 8vh;
+    font-weight: bold;
+}
+
