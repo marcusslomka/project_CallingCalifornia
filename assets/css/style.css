@@ -250,34 +250,91 @@ header section h1 {
 }
 .first_pic_pb {
     width: 40%;
-    margin: 20vh -35vh 5vh 6vh;
-    z-index: 2;
+    margin: 20vh -50vh 5vh 11vh;
+    z-index: 3;
     position: relative;
 }
 .second_pic_pb {
     width: 100%;
-    margin: 0 0 0 30vh;
+    margin: 0 0 0 40vh;
+    z-index: 2;
 }
 
 /* -------*END-------- */
 
-.end  {
+footer  {
     display: flex;
     flex-direction: column;
     background-color: black;
     color: white;
-    padding: 15vh 8vh 0 8vh;
+    padding: 15vh 8vh 0 8vh;    
     
 }
+
 .small {
     font-size: 1rem;
     font-weight: lighter;
 }
 .text_end {
-    width: 55%;
+    width: 50%;
     font-size: 1.4rem;
     margin: 4vh 0;
     line-height: 8vh;
     font-weight: bold;
 }
+.lowerFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerLeft {
+    width: 40%;
+    margin: 1vh 0;
+}
+.footerImgLeft {
+    width: 7vw;
+    background-color: red;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 3vh 0;
+}
+.footerImgLeft img {
+    width: 30%;
+}
+.footerRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.footerRight img {
+    max-width: 40%;
+    margin: 1vh 1vh;
+}
 
+.date_stripe {
+    display: flex;
+    align-items: center;
+    transform: rotate(45deg);
+    height: 12vh;
+    width: 300vw;
+    background-color: white;
+    margin-top: 60vh;
+    z-index: 1;
+}
+.date {
+    font-size: 4rem;
+    color: black;
+    font-weight: bold;
+    animation: moving_date 10s linear infinite alternate;
+}
+
+@keyframes moving_date {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
